@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,17 +6,18 @@
 
 :root {
   font-size: 62.5%;
-  --generalColor: #fffb00;
+  --generalColor: #5ceb30;
 }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
 body {
   background-color: rgb(34, 34, 34);
-  color: #FFFFFF;
-  font-family:'Poppins', sans-serif;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
   margin: 0 auto;
   font-size: 1.6rem;
 }
@@ -47,18 +48,18 @@ nav {
   font-size: 1.8rem;
 }
 
-li{
+li {
   display: inline-block;
   margin: 2rem;
 }
 
 a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 a:hover {
   color: var(--generalColor);
-  transition: .3s all;
+  transition: 0.3s all;
 }
 
 #subscribe {
@@ -69,10 +70,10 @@ a:hover {
 
 #subscribe:hover {
   background-color: var(--generalColor);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-h1{
+h1 {
   font-weight: 200;
 }
 
@@ -94,8 +95,7 @@ h2 {
   line-height: 6rem;
 }
 
-
-h3{
+h3 {
   margin-top: 2rem;
   font-size: 2.8rem;
 }
@@ -110,21 +110,18 @@ p {
   max-width: 50rem;
 }
 
-
 .image-profile {
   border-radius: 50%;
-  padding: .4rem;
+  padding: 0.4rem;
   border: solid var(--generalColor);
   width: 35rem;
   margin-left: 28rem;
 }
 
-
 .section1 {
   margin-top: 5rem;
   display: flex;
 }
-
 
 .avisos {
   display: flex;
@@ -132,7 +129,6 @@ p {
   flex-direction: row;
   width: 70%;
 }
-
 
 .section2 {
   margin-top: 10rem;
@@ -151,16 +147,16 @@ p {
   line-height: 3rem;
 }
 
-a{
+a {
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .section2 img {
-  width: 50rem;
+  width: 20rem;
 }
 
-.learning{
+.learning {
   margin-top: 8rem;
 }
 
@@ -168,15 +164,14 @@ a{
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  
 }
 
-.wrapp-images img{
+.wrapp-images img {
   margin-top: 2rem;
-  width: 15rem;
+  width: 10rem;
 }
 
-.images-skills{
+.images-skills {
   display: flex;
   gap: 2rem;
 }
@@ -197,10 +192,10 @@ a{
 }
 
 .section3 {
-  margin-top: 10rem;
+  margin-top: 23rem;
 }
 
-.projects-git{
+.projects-git {
   display: flex;
   justify-content: space-between;
 }
@@ -210,14 +205,14 @@ a{
   flex-direction: column;
 }
 
-.projects-git img{
+.projects-git img {
   margin-top: 2rem;
   width: 50rem;
 }
 
-.projects-git img:hover{
+.projects-git img:hover {
   border: solid var(--generalColor);
-  transition: .1s all;
+  transition: 0.1s all;
 }
 
 footer {
@@ -247,7 +242,7 @@ footer {
 }
 
 .finish {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,7 +257,7 @@ footer {
   height: 5rem;
   width: 5rem;
   border-radius: 100%;
-  background-color:transparent;
+  background-color: transparent;
   border: 3px solid black;
 }
 
@@ -271,7 +266,7 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
-  h1{
+  h1 {
     text-align: center;
   }
   header {
@@ -282,11 +277,11 @@ footer {
     margin-inline: 2rem;
     flex-direction: column;
   }
-  section{
+  section {
     flex-direction: column;
   }
 
-  .section1{
+  .section1 {
     margin: 0;
   }
   h2 {
@@ -301,7 +296,7 @@ footer {
   .wrapp-content h3 {
     font-size: 2rem;
   }
-  .image-profile{
+  .image-profile {
     margin-top: 6rem;
     width: 30rem;
     margin-inline: 8.1rem;
@@ -318,11 +313,11 @@ footer {
     font-size: 1.5rem;
   }
 
-  .wrapp-contain img{
+  .wrapp-contain img {
     margin-top: 5rem;
     width: 30rem;
   }
-  
+
   .wrapp-images img {
     width: 10rem;
   }
@@ -338,7 +333,7 @@ footer {
     margin-top: 2rem;
   }
 
-  .projects-git img{
+  .projects-git img {
     margin: 0 auto;
     width: 40rem;
   }
@@ -346,12 +341,10 @@ footer {
   .projects-git a {
     text-align: center;
   }
-  
-
 }
 
-@media (max-width: 460px) {
-  h1{
+@media (max-width: 600px) {
+  h1 {
     text-align: center;
   }
   header {
@@ -362,15 +355,15 @@ footer {
     flex-direction: column;
   }
 
-  main{
+  main {
     padding: 0;
   }
 
-  section{
+  section {
     flex-direction: column;
   }
 
-  .section1{
+  .section1 {
     margin: 0;
   }
   h2 {
@@ -385,7 +378,7 @@ footer {
   .wrapp-content h3 {
     font-size: 1.5rem;
   }
-  .image-profile{
+  .image-profile {
     margin-top: 6rem;
     width: 30rem;
     margin-inline: 5rem;
@@ -402,11 +395,11 @@ footer {
     font-size: 1.5rem;
   }
 
-  .wrapp-contain img{
+  .wrapp-contain img {
     margin-top: 5rem;
     width: 30rem;
   }
-  
+
   .wrapp-images img {
     width: 8rem;
   }
@@ -422,7 +415,7 @@ footer {
     margin-top: 2rem;
   }
 
-  .projects-git img{
+  .projects-git img {
     margin: 0 auto;
     width: 35rem;
   }
@@ -432,110 +425,21 @@ footer {
   }
 
   #cv {
-   margin: 0 auto;
-   width: 5rem;
+    margin: 0 auto;
+    width: 5rem;
   }
-  
-  
 }
 
-
-/* @media (max-width: 460px) {
-  h1{
-    text-align: center;
-  }
-  header {
-    width: 90%;
-    position: unset;
-    display: flex;
-    margin-inline: 2rem;
-    flex-direction: column;
-  }
-
-  main{
-    padding: 0;
-  }
-
-  section{
-    flex-direction: column;
-  }
-
-  .section1{
-    margin: 0;
-  }
-  h2 {
-    font-size: 2.8rem;
-  }
-
-  .wrapp-content {
-    margin-top: 0;
-    text-align: center;
-  }
-
-  .wrapp-content h3 {
-    font-size: 1.5rem;
-  }
-  .image-profile{
-    margin-top: 6rem;
-    width: 30rem;
-    margin-inline: 5rem;
-  }
-  ul {
-    text-align: center;
-  }
-  .wrapp-contain {
-    flex-direction: column;
-    font-size: 1.5rem;
-  }
-
-  .wrapp-contain p {
-    font-size: 1.5rem;
-  }
-
-  .wrapp-contain img{
-    margin-top: 5rem;
-    width: 30rem;
-  }
-  
-  .wrapp-images img {
-    width: 8rem;
-  }
-
-  .wrapp-images-bot img {
-    width: 11rem;
-  }
-
-  .projects-git {
-    display: flex;
-    gap: 2rem;
-    flex-direction: column;
-    margin-top: 2rem;
-  }
-
-  .projects-git img{
-    margin: 0 auto;
-    width: 35rem;
-  }
-
-  .projects-git a {
-    text-align: center;
-  }
-
-  #cv {
-   margin: 0 auto;
-   width: 5rem;
-  }
-} */
-
-.wrapp-content, .image-profile{
+.wrapp-content,
+.image-profile {
   visibility: hidden;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   display: none;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .hamburger-menu {
     display: block;
     position: absolute;
@@ -560,8 +464,6 @@ footer {
     transition: transform 0.2s ease-out;
   }
 
-  
-
   ul {
     display: none;
   }
@@ -569,7 +471,6 @@ footer {
   .hamburger-menu-bar:last-child {
     margin-bottom: 0;
   }
-
 }
 
 #init ul.show {
@@ -594,20 +495,17 @@ footer {
   border-bottom: none;
 }
 
-#init ul.show a {
-  color: white;
+#init ul.show a:last-child {
+  color: white !important;
 }
 
 #init ul.show a:hover {
-  color: #ffc107;
+  color: var(--generalColor);
 }
 
+/* colocar o CV */
 
-
-
-/* colocar o CV */ 
-
- #cv {
+#cv {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -620,13 +518,11 @@ footer {
   color: #fff;
   font-size: 2rem;
   text-transform: unset;
-  font-family: 'Poppins', sans-serif; 
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
-} 
+}
 
- #cv:hover {
+#cv:hover {
   background-color: var(--generalColor);
   cursor: pointer;
 }
-
-
