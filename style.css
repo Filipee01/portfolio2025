@@ -375,6 +375,12 @@ footer {
     text-align: center;
   }
 
+  .images-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
   .wrapp-content h3 {
     font-size: 1.5rem;
   }
@@ -462,6 +468,12 @@ footer {
     background-color: white;
     border-radius: 3px;
     transition: transform 0.2s ease-out;
+  }
+
+  .images-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 
   ul {
